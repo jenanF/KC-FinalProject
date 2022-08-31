@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#93E1D8"
+    android:orientation="vertical"
+    tools:context=".fragment.lastFragment">
+
+
+
+        <!-- TODO: Update blank fragment layout -->
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="393dp"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/reading_glasses_darkb" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-light"
+        android:gravity="center_horizontal"
+        android:text="Explore all kinds of books of various genres!"
+        android:textAlignment="center"
+        android:textSize="34sp" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="99dp"
+            android:layout_height="108dp"
+            android:layout_gravity="end"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/ic_navigate_next" />
+
+    </LinearLayout>
