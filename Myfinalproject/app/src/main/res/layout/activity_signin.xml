@@ -15,6 +15,23 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
+        android:id="@+id/editTextusername"
+        android:layout_width="353dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/editext_custom"
+        android:hint="User Name"
+        android:paddingStart="18dp"
+        android:textColorHint="#8C8686"
+        android:drawableStart="@drawable/name_icon"
+        android:drawablePadding="8dp"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:paddingEnd="18dp"
+        android:inputType="textPersonName"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
         android:id="@+id/editTextEmailAddress"
         android:layout_width="353dp"
         android:layout_height="55dp"
@@ -22,7 +39,9 @@
         android:background="@drawable/editext_custom"
         android:hint="Email Address"
         android:paddingStart="18dp"
+        android:layout_marginTop="30dp"
         android:textColorHint="#8C8686"
+        android:paddingEnd="18dp"
         android:drawableStart="@drawable/email_icon"
         android:drawablePadding="8dp"
         android:textColor="@color/black"
@@ -39,6 +58,7 @@
         android:background="@drawable/editext_custom"
         android:hint="Password"
         android:paddingStart="18dp"
+        android:paddingEnd="18dp"
         android:textColorHint="#8C8686"
         android:drawableStart="@drawable/lock_icon"
         android:drawablePadding="8dp"
@@ -56,6 +76,6 @@
         android:background="@drawable/button_sign"
         android:text="join us"
         android:textSize="20dp"
-        android:enabled="false"/>
+        android:enabled="true"/>
 
 </LinearLayout>

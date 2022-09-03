@@ -27,7 +27,7 @@
         android:layout_marginTop="15dp"
         android:fontFamily="sans-serif-light"
         android:gravity="center_horizontal"
-        android:text="Read what you love....   when you love"
+        android:text="Read what you like....   when you like"
         android:textAlignment="center"
         android:textSize="34sp" />
 

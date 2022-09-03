@@ -2,7 +2,11 @@ package com.example.myfinalproject;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ImageView;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -31,5 +35,43 @@ public class Activity2 extends AppCompatActivity {
         ListView listView= findViewById(R.id.mylistview);
 
         listView.setAdapter(adapter);
+
+
+        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
+
+                if (i == 0){
+                    startActivity(new Intent(Activity2.this,stores_activity.class));
+                }
+                else if (i == 1){
+                    startActivity(new Intent(Activity2.this, Audiobooks_activity.class));
+                }
+                else if (i == 2){
+                    startActivity(new Intent(Activity2.this, Ebooks_Activity.class));
+                }
+            }
+        });
+
+        ImageView pro = findViewById(R.id.imageView5pro);
+        pro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent prof = new Intent(Activity2.this, Profile_Activity.class);
+
+                startActivity(prof);
+            }
+        });
+
+
+        ImageView got = findViewById(R.id.imageView8f);
+        got.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                startActivity(new Intent(Activity2.this,Freebooks.class));
+            }
+        });
     }
 }

@@ -7,6 +7,9 @@ public class Sections implements Serializable {
     private int image;
     private String name;
 
+    public Sections() {
+    }
+
     public int getImage() {
         return image;
     }
