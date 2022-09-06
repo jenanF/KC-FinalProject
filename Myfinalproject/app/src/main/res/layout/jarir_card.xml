@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="439dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="#fff"
+        android:padding="20dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff">
+
+            <ImageView
+                android:id="@+id/imageView7book"
+                android:layout_width="153dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="9dp"
+                android:layout_marginTop="-1dp"
+                android:layout_marginBottom="0dp"
+                app:srcCompat="@drawable/test_back" />
+
+            <TextView
+                android:id="@+id/textView2title"
+                android:layout_width="234dp"
+                android:layout_height="28dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="6dp"
+                android:layout_marginTop="28dp"
+                android:layout_marginEnd="37dp"
+                android:layout_toEndOf="@+id/imageView7book"
+                android:text="TextView"
+                android:paddingStart="8dp"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView8genre"
+                android:layout_width="173dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textView2title"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="16dp"
+                android:layout_toEndOf="@+id/imageView7book"
+                android:text="TextView"
+                android:textColor="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/textView5price"
+                android:layout_width="84dp"
+                android:layout_height="42dp"
+                android:layout_alignBottom="@+id/textView8genre"
+                android:layout_marginStart="46dp"
+                android:layout_marginBottom="-58dp"
+                android:layout_toEndOf="@+id/imageView7book"
+                android:text="TextView"
+                android:textColor="#83B845"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="34dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="148dp"
+                android:layout_marginEnd="56dp"
+                app:srcCompat="@drawable/ic_add_shopping_cart" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

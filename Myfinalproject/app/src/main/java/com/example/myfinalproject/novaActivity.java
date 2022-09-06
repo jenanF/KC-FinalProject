@@ -19,50 +19,37 @@ import com.google.firebase.database.ValueEventListener;
 
 import java.util.ArrayList;
 
-public class Ebooks_Activity extends AppCompatActivity {
+public class novaActivity extends AppCompatActivity {
 
     FirebaseDatabase database = FirebaseDatabase.getInstance("https://kcfinalproject1-default-rtdb.firebaseio.com/");
     DatabaseReference dbRef = database.getReference();
 
-
-    ArrayList<Books> ebook = new ArrayList<>();
+    ArrayList<Items> item = new ArrayList<>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ebooks);
+        setContentView(R.layout.activity_nova);
 
 
-        ImageView back = findViewById(R.id.buttonBack4);
-
-        back.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                startActivity(new Intent(Ebooks_Activity.this,Activity2.class));
-            }
-        });
-
-
-        RecyclerView ebk = findViewById(R.id.ebooklist);
-
-        ebk.setHasFixedSize(true);
+        RecyclerView books = findViewById(R.id.nova_rv);
+        books.setHasFixedSize(true);
         LinearLayoutManager llm = new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
-        ebk.setLayoutManager(llm);
-        EbookAdapter adapter = new EbookAdapter(ebook,this);
-        ebk.setAdapter(adapter);
+        books.setLayoutManager(llm);
+       novaAdapter ra = new novaAdapter(item,this);
+        books.setAdapter(ra);
 
+        Query booknv = dbRef.child("novaplus");
 
-        Query eb = dbRef.child("eBooks");
-
-        eb.addValueEventListener(new ValueEventListener() {
+        booknv.addValueEventListener(new ValueEventListener() {
             @Override
             public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
-                for (DataSnapshot ad :dataSnapshot.getChildren()){
-                    Books e = ad.getValue(Books.class);
-                    ebook.add(e);
-                    adapter.notifyDataSetChanged();
+                for (DataSnapshot p :dataSnapshot.getChildren()){
+                    Items sect = p.getValue(Items.class);
+                    item.add(sect);
+
+                    ra.notifyDataSetChanged();
                 }
 
 
@@ -74,17 +61,13 @@ public class Ebooks_Activity extends AppCompatActivity {
             }
         });
 
-
-        ImageView got = findViewById(R.id.imageView8f);
-        got.setOnClickListener(new View.OnClickListener() {
+        ImageView backk = findViewById(R.id.buttonBack0);
+        backk.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                startActivity(new Intent(Ebooks_Activity.this,Freebooks.class));
+                startActivity(new Intent(novaActivity.this,stores_activity.class));
             }
         });
-
-
-
     }
 }

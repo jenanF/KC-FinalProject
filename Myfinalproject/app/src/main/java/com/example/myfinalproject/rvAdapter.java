@@ -36,17 +36,12 @@ public class rvAdapter extends RecyclerView.Adapter {
         return vh;
     }
 
-    private void openURL (String s){
-        Uri uri = Uri.parse(s);
-        context.startActivity(new Intent(Intent.ACTION_VIEW,uri));
-    }
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
 
         Picasso.with(context).load(arry.get(position).getImage()).into(((ViewHolder) holder).photo);
 
-       // ((ViewHolder) holder).photo.setImageResource(arry.get(position).getImage());
         ((ViewHolder) holder).title.setText(arry.get(position).getName());
 
         ((rvAdapter.ViewHolder) holder).view.setOnClickListener(new View.OnClickListener() {
@@ -54,19 +49,16 @@ public class rvAdapter extends RecyclerView.Adapter {
             public void onClick(View view) {
 
                 if(position == 0){
-                    openURL("https://online.thatalsalasil.com.kw/");
+                    context.startActivity(new Intent(context, thatSlaselActivity.class));
                 }
                 else if (position == 1){
-                    openURL("https://aafaqbookstore.com/");
+                    context.startActivity(new Intent(context, jarirActivity.class));
                 }
                 else if (position == 2){
-                    openURL("https://www.jarir.com/kw-ar/english-books/english-non-fiction.html");
+                    context.startActivity(new Intent(context, platenumActivity.class));
                 }
                 else if (position == 3){
-                    openURL("https://platinum-book.com/shop/");
-                }
-                else if (position == 4){
-                    openURL("https://sophiakw.com/");
+                    context.startActivity(new Intent(context, sofiaActivity.class));
                 }
             }
         });

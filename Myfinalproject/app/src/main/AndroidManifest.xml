@@ -14,6 +14,36 @@
         android:theme="@style/Theme.MyFinalProject"
         tools:targetApi="31">
         <activity
+            android:name=".cartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".saghfActivity"
+            android:exported="false" />
+        <activity
+            android:name=".mintadActivity"
+            android:exported="false" />
+        <activity
+            android:name=".kalematActivity"
+            android:exported="false" />
+        <activity
+            android:name=".novaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".sofiaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".platenumActivity"
+            android:exported="false" />
+        <activity
+            android:name=".thatSlaselActivity"
+            android:exported="false" />
+        <activity
+            android:name=".jarirActivity"
+            android:exported="false" />
+        <activity
             android:name=".publishingActivity"
             android:exported="false" />
         <activity

@@ -36,10 +36,6 @@ public class houseAdapter extends RecyclerView.Adapter {
         return vh;
     }
 
-    private void openURL (String s){
-        Uri uri = Uri.parse(s);
-        context.startActivity(new Intent(Intent.ACTION_VIEW,uri));
-    }
 
     @Override
     public void onBindViewHolder(@NonNull RecyclerView.ViewHolder holder, int position) {
@@ -54,19 +50,16 @@ public class houseAdapter extends RecyclerView.Adapter {
             public void onClick(View view) {
 
                 if(position == 0){
-                    openURL("https://kalemat.com/ar/shop?department%5B0%5D=1");
+                    context.startActivity(new Intent(context, kalematActivity.class));
                 }
                 else if (position == 1){
-                    openURL("https://mintadstore.com/%D9%83%D8%AA%D8%A8");
+                    context.startActivity(new Intent(context, mintadActivity.class));
                 }
                 else if (position == 2){
-                    openURL("https://www.instagram.com/darnotebook/");
+                    context.startActivity(new Intent(context, novaActivity.class));
                 }
                 else if (position == 3){
-                    openURL("https://novapluskw.com/?lang=ar");
-                }
-                else if (position == 4){
-                    openURL("https://www.instagram.com/darshghf/");
+                    context.startActivity(new Intent(context, saghfActivity.class));
                 }
             }
         });

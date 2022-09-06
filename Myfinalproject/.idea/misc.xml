@@ -21,22 +21,33 @@
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/drawable/name_icon.xml" value="0.135" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_2.xml" value="0.14666666666666667" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_audiobooks.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_cart.xml" value="0.22" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_details.xml" value="0.22" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_ebooks.xml" value="0.15353260869565216" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_first.xml" value="0.22" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_freebooks.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_jarir.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_kalemat.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_mintad.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_nova.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_partner.xml" value="0.22" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_pdfv.xml" value="0.14990942028985507" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_platenum.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_profile.xml" value="0.22" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_publishing.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_saghf.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_signin.xml" value="0.22" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_sofia.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_stores.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_testthe_stable.xml" value="0.1" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_that_slasel.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_the_stableof.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_verity.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/activity_wherethe.xml" value="0.14990942028985507" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/audio_card.xml" value="0.15353260869565216" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/card_rv_n_rv.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/cart_card.xml" value="0.3333333333333333" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/content_test.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/ebooks_card.xml" value="0.15353260869565216" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/fragment_gallery.xml" value="0.14130434782608695" />
@@ -47,10 +58,12 @@
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/fragment_profile.xml" value="0.22" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/fragment_slideshow.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/free_card.xml" value="0.14743589743589744" />
-        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/freeb_card.xml" value="0.3333333333333333" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/freeb_card.xml" value="0.13333333333333333" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/house_card.xml" value="0.15353260869565216" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/jarir_card.xml" value="0.25" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/rv_n_rv.xml" value="0.14130434782608695" />
         <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/sections_card.xml" value="0.14130434782608695" />
+        <entry key="..\:/Users/jenan/AndroidStudioProjects/Myfinalproject/app/src/main/res/layout/slasl_card.xml" value="0.14990942028985507" />
       </map>
     </option>
   </component>

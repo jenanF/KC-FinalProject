@@ -65,12 +65,12 @@ public class Activity2 extends AppCompatActivity {
         });
 
 
-        ImageView got = findViewById(R.id.imageView8f);
+        ImageView got = findViewById(R.id.imageView8fcart);
         got.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
-                startActivity(new Intent(Activity2.this,Freebooks.class));
+                startActivity(new Intent(Activity2.this,cartActivity.class));
             }
         });
     }
