@@ -11,7 +11,13 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 public class Profile_Activity extends AppCompatActivity {
+
+    ImageView log;
+    FirebaseAuth mAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -98,7 +104,31 @@ public class Profile_Activity extends AppCompatActivity {
                 startActivity(new Intent(Profile_Activity.this,Activity2.class));
             }
         });
+
+         log = findViewById(R.id.imageView3logout);
+
+        mAuth =  FirebaseAuth.getInstance();
+
+        log.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                mAuth.signOut();
+                startActivity(new Intent(Profile_Activity.this,signinActivity.class));
+
+            }
+        });
+
     }
 
+    @Override
+    protected void onStart() {
+        super.onStart();
+        FirebaseUser user = mAuth.getCurrentUser();
+        if (user == null){
 
+            startActivity(new Intent(Profile_Activity.this,signinActivity.class));
+
+        }
+    }
 }

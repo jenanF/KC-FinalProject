@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="#457B9D"
-    tools:context=".signinActivity">
+    tools:context=".RegisterActivity">
 
     <ImageView
         android:id="@+id/imageView3logo"
@@ -15,7 +15,7 @@
         app:srcCompat="@drawable/logo" />
 
     <EditText
-        android:id="@+id/editTextusername"
+        android:id="@+id/editTextusername3reg"
         android:layout_width="353dp"
         android:layout_height="55dp"
         android:layout_gravity="center_horizontal"
@@ -31,15 +31,34 @@
         android:inputType="textPersonName"
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
+
     <EditText
-        android:id="@+id/editTextEmailAddress"
+        android:id="@+id/editTextAge3reg"
+        android:layout_width="353dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/editext_custom"
+        android:hint="Age"
+        android:paddingStart="18dp"
+        android:layout_marginTop="20dp"
+        android:textColorHint="#8C8686"
+        android:drawableStart="@drawable/icon_age"
+        android:drawablePadding="8dp"
+        android:textColor="@color/black"
+        android:ems="10"
+        android:paddingEnd="18dp"
+        android:inputType="number"
+        tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
+
+    <EditText
+        android:id="@+id/editTextEmailAddress3reg"
         android:layout_width="353dp"
         android:layout_height="55dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/editext_custom"
         android:hint="Email Address"
         android:paddingStart="18dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:textColorHint="#8C8686"
         android:paddingEnd="18dp"
         android:drawableStart="@drawable/email_icon"
@@ -50,10 +69,10 @@
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <EditText
-        android:id="@+id/editTextPassword"
+        android:id="@+id/editTextPassword3reg"
         android:layout_width="353dp"
         android:layout_height="55dp"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:layout_gravity="center_horizontal"
         android:background="@drawable/editext_custom"
         android:hint="Password"
@@ -68,14 +87,14 @@
         tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
     <Button
-        android:id="@+id/buttonJoinUs"
+        android:id="@+id/buttonJoinUs3reg"
         android:layout_width="238dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40dp"
         android:background="@drawable/button_sign"
         android:enabled="true"
-        android:text="welcome back"
+        android:text="join us"
         android:textSize="20dp" />
 
     <LinearLayout
@@ -89,17 +108,17 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="80dp"
-            android:text="Don't have an account?"
+            android:text="already have an account?"
             android:textColor="#D8D8D8"
             android:textSize="16dp" />
 
         <TextView
-            android:id="@+id/textViewRegister"
+            android:id="@+id/textViewLogin3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
             android:layout_marginLeft="10dp"
-            android:text="Register"
+            android:text="Log in"
             android:textColor="#FFA69E"
             android:textSize="18dp"
             android:textStyle="bold" />
